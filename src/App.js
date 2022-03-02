@@ -43,7 +43,7 @@ export default function App() {
         <Route path="/app/:id" element={<Single />} />
         <Route path="/app/:id/manage" element={<Manage />} />
         <Route path="/lost" element={<NotFound />} />
-        <Route path="/chambabi" element={<Chambertodrickroll />} />
+        <Route path="/nothingheretosee" element={<Chambertodrickroll />} />
         <Route path="*" element={<RedirectHandler />} />
       </Routes>
     </ChakraProvider>
