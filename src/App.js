@@ -19,7 +19,7 @@ const RedirectHandler = () => {
 const Chambertodrickroll = () => {
   const navigate = useNavigate();
   React.useEffect(() => {
-    window.location.href = "https://youtu.be/n6Hwyq50YWc"
+    window.location.href = "https://youtu.be/dQw4w9WgXcQ"
   }, []);
   return <h3>Nothing</h3>;
 };
